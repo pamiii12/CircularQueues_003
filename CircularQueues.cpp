@@ -22,5 +22,8 @@ public:
 			cout << "\nQueue overflow\n";
 			return; 
 		}
+
+		// Cek apakah antrian kosong
+
 	}
 };
