@@ -37,4 +37,15 @@ public:
 		}
 		queues_array[REAR] = num;
 	}
+
+	void remove() {
+		// Cek apakah antrian kosong
+		if (FRONT == -1) {
+			cout << "\nQueue overflow\n";
+			return;
+		}
+		cout << "\nThe element deleted from queue is : " << queues_array[FRONT] << "\n";
+
+		// Cek jika antrian memiliki 1 element
+	}
 };
