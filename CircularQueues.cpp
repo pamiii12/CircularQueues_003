@@ -78,7 +78,7 @@ public:
 				FRONT_position++;
 			}
 
-			FRONT_position = 0;
+			FRONT_position = 0; 
 
 			// Iterasi dari awal array hingga REAR
 		}
