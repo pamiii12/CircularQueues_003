@@ -100,7 +100,7 @@ public:
 
 int main() {
 	Queues q;
-	char ch;
+	char ch; 
 
 	while (true) {
 		try {
